@@ -1,6 +1,6 @@
 .,Polish
 quest.name,Pięć zbrodni przy Crimson Alley v1.3
-quest.description,W byłej dzielnicy rzeźni doszło do kolejnego morderstwa. Biorąc pod uwagę obecną sytuację w okolicy nikogo to specjalnie nie zdziwiło. Jednak to zabójstwo było inne - miejsce zbrodni pokrywały tajemnicze znaki wskazujące na jej rytualny charakter.\n\nCzwórka głównych podejrzanych jest po równo zamieszana w szemrane i niezbyt legalne interesy, jednak tylko jeden z nich jest mordercą. Czy uda się wam odkryć ich skrywane tajemnice i zidentyfikować mordercę na czas?\n\nScenariusz przeznaczony jest dla 2-4 graczy i można go rozegrać jedynie przy pomocy podsawowej wersji Posiadłości Szaleństwa 2 ed.\n\nDodatki <i>Ulice Arkham, Świątynia Świtu, Ścieżka Węża oraz Recurring Nightmares i Suppressed Memories</i> dodają dodatkowego urozmaicenia.
+quest.description,W byłej dzielnicy rzeźni doszło do kolejnego morderstwa. Biorąc pod uwagę obecną sytuację w okolicy nikogo to specjalnie nie zdziwiło. Jednak to zabójstwo było inne - miejsce zbrodni pokrywały tajemnicze znaki wskazujące na jej rytualny charakter.\n\nCzwórka głównych podejrzanych jest po równo zamieszana w szemrane i niezbyt legalne interesy, jednak tylko jeden z nich jest mordercą. Czy uda się wam odkryć ich skrywane tajemnice i zidentyfikować mordercę na czas?\n\nScenariusz przeznaczony jest dla 2-4 graczy i można go rozegrać jedynie przy pomocy podstawowej wersji Posiadłości Szaleństwa 2 ed.\n\nDodatki <i>Ulice Arkham, Świątynia Świtu, Ścieżka Węża oraz Recurring Nightmares i Suppressed Memories</i> dodają dodatkowego urozmaicenia.
 quest.synopsys,W byłej dzielnicy rzeźni doszło do kolejnego morderstwa. Fala zbrodni wzbiera. Nie obejdzie się bez waszej pomocy.
 quest.authors,<i>Autor:</i> William i Anton\n\nTłumaczenie PL: <i>Litas</i>
 quest.authors_short,Anton Timmermans
@@ -29,13 +29,13 @@ MOVEDOG,Przemieść żeton <color=Cyan>Psa</color> we wskazane miejsce.
 PLACE1TILE,Umieść kafel <color=Cyan>{tile1}</color> we wskazanym miejscu.
 FACEDOWNHORROR,Przyjmujesz {nr} <color=Teal>zakrytych kart Przerażenia</color>.
 FACEUPHORROR,Przyjmujesz {nr} <color=Teal>kart Przerażenia</color>.
-FACEDOWNDAMAGE,Przyjmujesz {nr} <color=Red>zakrytyh kart Obrażeń</color>.
+FACEDOWNDAMAGE,Przyjmujesz {nr} <color=Red>zakrytych kart Obrażeń</color>.
 FACEUPDAMAGE,Przyjmujesz {nr} <color=Red>kart Obrażeń</color>.
 RECEIVECOMMON,Zyskujesz <color=Cyan>przedmiot powszechny {item}</color>.
 RECEIVEUNIQUE,Zyskujesz <color=Cyan>przedmiot unikatowy {item}</color>
 UIEpilogueContinueText.uitext,{qst:CONTINUE}
 UIIntroductionContinueText.uitext,{qst:CONTINUE}
-UIIntroductionText.uitext,Gdy zbliżacie się do Crimson Alley powoli dochodzi północ. Ulica zawdzięcza swoją barwną nazwę licznym rzeźniom, które się przy niej niegdyś znajdowały. Obecnie okolica zaroiła się od wielu szemranych przedsiębiorstw i lokali, które w zamian za pieniądze nagradzają chętnych wszelkimi rozrywkami.\n\nWcześniej tego wieczora, na rogu ulicy doszło do morderstwa. W tej okolicy nie jest to niczym niespotykanym, jednak zazwyczaj mordestwo ma podłoże rabunkowe. To zabójstwo było trzecim w tym tygodniu. Jednak było zupełnie inne. Miejsce zrbodni wyglądało jak miejsce jakiegoś makabrycznego rytuału.\nGdy agent federalny Craven zadzwonił do was z prośbą o pomoc w sprawie, nie wahaliście się ani przez chwilę. W sprawach okultyzmu jesteście ekspertami, a fakt, że nie należycie do szeregów stróżów prawa umożliwi wam próbę zbliżenia się do lokalnych przedsiębiorców i ich wybadania.\n\nZbliżając się do miejsca zbrodni czujecie gęstą, ponurą atmosferę miasta. Zamieszki i protesty przeciwko niedawno wprowadzonej prohibicji wybuchają ostatnio bardzo często. Macie nadzieję, że nic takiego nie przytrafi się akurat gdy będziecie badać nową sprawę.
+UIIntroductionText.uitext,Gdy zbliżacie się do Crimson Alley powoli dochodzi północ. Ulica zawdzięcza swoją barwną nazwę licznym rzeźniom, które się przy niej niegdyś znajdowały. Obecnie okolica zaroiła się od wielu szemranych przedsiębiorstw i lokali, które w zamian za pieniądze nagradzają chętnych wszelkimi rozrywkami.\n\nWcześniej tego wieczora, na rogu ulicy doszło do morderstwa. W tej okolicy nie jest to niczym niespotykanym, jednak zazwyczaj morderstwo ma podłoże rabunkowe. To zabójstwo było trzecim w tym tygodniu. Jednak było zupełnie inne. Miejsce zbrodni wyglądało jak miejsce jakiegoś makabrycznego rytuału.\nGdy agent federalny Craven zadzwonił do was z prośbą o pomoc w sprawie, nie wahaliście się ani przez chwilę. W sprawach okultyzmu jesteście ekspertami, a fakt, że nie należycie do szeregów stróżów prawa umożliwi wam próbę zbliżenia się do lokalnych przedsiębiorców i ich wybadania.\n\nZbliżając się do miejsca zbrodni czujecie gęstą, ponurą atmosferę miasta. Zamieszki i protesty przeciwko niedawno wprowadzonej prohibicji wybuchają ostatnio bardzo często. Macie nadzieję, że nic takiego nie przytrafi się akurat gdy będziecie badać nową sprawę.
 EventMoveOneSpace.button1,{qst:CONTINUE}
 EventMoveOneSpace.text,Możesz przemieścić się o jedno pole na odsłonięty obszar.
 TokenSightAlleyNorth.button1,{qst:CONTINUE}
@@ -46,7 +46,7 @@ EventExploreOffice.button1,{qst:OPEN}
 EventExploreOffice.button2,{qst:CANCEL}
 EventExploreOffice.text,Szyld znajdujący się obok ciężkich, drewnianych drzwi głosi: "Lombard".
 TokenBedroom2SearchCabinet.button1,{qst:ACTION} Posegreguj dokumenty
-TokenBedroom2SearchCabinet.text,Niurko ma kilka wypaczonych ze starości szuflad. Z jednej z nich wystają jakieś papiery.
+TokenBedroom2SearchCabinet.text,Biurko ma kilka wypaczonych ze starości szuflad. Z jednej z nich wystają jakieś papiery.
 EventOldJournalInspect.button1,Victor Blake
 EventOldJournalInspect.button2,Howard Bechman
 EventOldJournalInspect.button3,Othera Gilman
@@ -66,14 +66,14 @@ EventStartPlaceAgentCraven.button1,{qst:CONTINUE}
 EventStartPlaceAgentCraven.text,<i>- Tutaj! </i> - słyszycie znajomy głos.\nW sylwetce stojącej w półmroku rozpoznajecie agenta śledczego Cravena.\n\n<i>- Dziękuję, że zjawiliście się tak szybko. Nie mamy czasu do stracenia, póki trop jest jeszcze świeży. To nie było zwykłe morderstwo na tle rabunkowym. To jakiś rodzaj przesłania. Wiadomość.</i>\n\n{qst:PLACEPERSON:{person}:Agenta Cravena}
 EventStartAgentCravenIntro1.button1,{qst:CONTINUE}
 EventStartAgentCravenIntro2.text,Craven otwiera swój notes i czyta:\n<i>- Sklepikarka Joyce Little, właściciel lombardu Howard Bechman, Othera Gilman i Victor Blake - to moi główni podejrzani. Musicie mi pomóc w przybliżeniu ram czasowych tej zbrodni, ustalić miejsce pobytu podejrzanych i jeśli to możliwe sprawdzić ich alibi.</i>
-EventStartAgentCravenIntro1.text,<i>- Z moich pobieżnych oględzin ciała wynika, że ofiara, mężczyzna, została zabita przy pomocy ostrego narzędzia, najprawdopodobniej noża, o krótkim, szerokim ostrzu. Może nóżem do skórowania lub czymś podobnym. Do morderstwa doszło pomiędzy 21:00, a 22:00.\nListę podejrzanych udało mi się zawęzić do 4 osób i potrzebuję waszej pomocy w ustaleniu, które z nich dopuściło się tego czynu.</i>.
+EventStartAgentCravenIntro1.text,<i>- Z moich pobieżnych oględzin ciała wynika, że ofiara, mężczyzna, została zabita przy pomocy ostrego narzędzia, najprawdopodobniej noża, o krótkim, szerokim ostrzu. Może nożem do skórowania lub czymś podobnym. Do morderstwa doszło pomiędzy 21:00, a 22:00.\nListę podejrzanych udało mi się zawęzić do 4 osób i potrzebuję waszej pomocy w ustaleniu, które z nich dopuściło się tego czynu.</i>.
 EventStartAgentCravenIntro2.button1,{qst:CONTINUE}
 EventStartAgentCravenMoveToBody.text,<i>"Będę zapisywał wszystko czego uda się wam dowiedzieć. Możecie mnie zapytać jeśli będziecie chcieli sprawdzić moje notatki o zebranych przez was dowodach i zapisane zeznania, zarówno podejrzanych jak i świadków.\nW międzyczasie zbadam dokładniej zwłoki. Dajcie mi niezwłocznie znać gdy będziecie już pewni, że udało się wam ustalić kto zabił.</i>\n\nPrzemieść żeton osoby <color=Cyan>Agenta Cravena</color> we wskazane miejsce.
 EventStartAgentCravenMoveToBody.button1,{qst:CONTINUE}
 EventAgentCravenRun.button1,{qst:CONTINUE}
 EventAgentCravenRun.text,<i>UCIEKAJCIE! RATUJCIE SIĘ!</i> - krzyczy Craven na widok potwora i rzuca się do ucieczki.\n\nPrzemieść żeton osoby <color=Cyan>Agent Craven</color> we wskazane miejsce.
 EventAgentCravenDropNotebook.button1,{qst:CONTINUE}
-EventAgentCravenDropNotebook.text,W panice Craven nie zauważa nawet, że upuścił swój notatni zawierający wszystkie szczegóły śledztwa, które do tej pory udało się ustalić.\n\n{qst:PLACESEARCH}
+EventAgentCravenDropNotebook.text,W panice Craven nie zauważa nawet, że upuścił swój notatnik zawierający wszystkie szczegóły śledztwa, które do tej pory udało się ustalić.\n\n{qst:PLACESEARCH}
 TokenStartSearchOldJournal.button1,{qst:PICKUP}
 TokenStartSearchOldJournal.text,Notes agenta Cravena leży na ulicy.
 EventStartSearchOldJournal.button1,{qst:CONTINUE}
@@ -85,7 +85,7 @@ EventStartPlaceExploreOffice.text,Jesteś zaskoczony hukiem zatrzaskiwanych, ci�
 EventStartPlaceOrangeWoman.button1,{qst:CONTINUE}
 EventStartPlaceOrangeWoman.text,<i>- Drań.</i> - mówi młoda kobieta wychodząc z zadymionego biura.\n{qst:PLACEPERSON:{person}:Pomarańczowej Kobiety}
 EventStreetShopPlaceTile.button1,{qst:CONTINUE}
-EventStreetShopPlaceTile.text,Ta ulica jest rozświetlona blaskiem latarni oraz światłem wylewającym się z niewielkiego sklepu, który wydaje się być otwarty nawet nocą. Obdrapanyi wyblakły napisa na murze zdradza, że kiedyś znajdował się tutaj rzeźnik.\n{qst:PLACE1TILE:{tile1}:{c:TileStoreCurioFront}} i usuń żeton <color=Cyan>Obserwacji</color>.
+EventStreetShopPlaceTile.text,Ta ulica jest rozświetlona blaskiem latarni oraz światłem wylewającym się z niewielkiego sklepu, który wydaje się być otwarty nawet nocą. Obdrapany i wyblakły napis na murze zdradza, że kiedyś znajdował się tutaj rzeźnik.\n{qst:PLACE1TILE:{tile1}:{c:TileStoreCurioFront}} i usuń żeton <color=Cyan>Obserwacji</color>.
 EventStreetShopPlaceGreyMan.button1,{qst:CONTINUE}
 EventStreetShopPlaceGreyMan.text,Miejscu zbrodni, z pewnej odległości przygląda się jakiś duchowny kręcąc głową z wyrazem dezaprobaty na twarzy. Zdaje się, że jest miejscowym kaznodzieją.\n{qst:PLACEPERSON:{person}:Szarego Mężczyzny}
 STREETSHOPSEWERCOVER,Twój wzrok przykuwa, lekko odsunięta pokrywa włazu.
@@ -108,7 +108,8 @@ EventShopPlaceTile.text,Wchodzisz do niewielkiego sklepu z kuriozami zapełnione
 EventShopPlaceJoyceLittle.button1,{qst:CONTINUE}
 EventShopPlaceJoyceLittle.text,Za ladą stoi surowo wyglądająca kobieta w średnim wieku. Na nosie ma cwikiery. Jest zajęta zawijaniem niewielkiej paczki w biały papier.\n\n{qst:PLACEPERSON:{person}:Joyce Little}\n\n To jedna z podejrzanych.
 EventShopPlaceBlueWoman.button1,{qst:CONTINUE}
-EventShopPlaceBlueWoman.text,Młoda dziewczyna w teatralnym stroju nerwowo obrzyza paznokcie. Wygląda jakby za wszelką cenę chciała uniknąć spotkania z Tobą. Najwidoczniej na coś czeka.\n\n{qst:PLACEPERSON:{person}:Niebieskiej Kobiety}
+EventShopPlaceBlueWoman.text,Młoda dziewczyna w teatralnym stroju nerwowo obgr
+yza paznokcie. Wygląda jakby za wszelką cenę chciała uniknąć spotkania z Tobą. Najwidoczniej na coś czeka.\n\n{qst:PLACEPERSON:{person}:Niebieskiej Kobiety}
 EventShopPlaceSearchCabinet.button1,{qst:CONTINUE}
 EventShopPlaceSearchCabinet.text,Szklana gablota w rogu pomieszczenia jest pełna różnych drobiazgów.\n\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
 TokenShopSearchDesk.button1,{qst:SEARCH}
@@ -133,7 +134,7 @@ TokenAlleyCornerExploreClub.button1,Zapukaj.
 TokenAlleyCornerExploreClub.text,{qst:EXPLORECLUB}
 EventAlleyCornerPlaceExploreClub.button1,{qst:CONTINUE}
 EventAlleyCornerPlaceExploreClub.text,{qst:EXPLORECLUB} Niektóre żarówki w szyldzie się przepaliły pozostawiając makabryczne przesłanie.\n{qst:PLACEEXPLORE}
-EventAlleyCornerPlaceSightAlleyEnd.text,Mrok spowijający alejkę uniemożliwia dostrzerzenie co snajduje się dalej.\n\n{qst:PLACESIGHT}
+EventAlleyCornerPlaceSightAlleyEnd.text,Mrok spowijający alejkę uniemożliwia dostrzeżenie co znajduje się dalej.\n\n{qst:PLACESIGHT}
 EventAlleyCornerPlaceSightAlleyEnd.button1,{qst:CONTINUE}
 EventAlleyCornerPlaceTileEnd.button1,Button1
 KNOCKONCLUBDOOR,Klapka wizjera odsuwa się na bok.\n\n<i>Hasło.</i> - odzywa się ochrypły głos z drugiej strony drzwi.
@@ -148,7 +149,7 @@ EventAlleyCornerPlaceWhiteMan.text,Umięśniony mężczyzna o tępym wyrazie twa
 EventOfficePlaceTile.button1,{qst:CONTINUE}
 EventOfficePlaceTile.text,Niewielkie, schludne biuro służy obecnie za lombard. W powietrzu daje się rozpoznać delikatny zapach alkoholu.\n\n{qst:PLACE1TILE:{tile1}:{c:TileOffice}} i usuń wszystkie żetony prowadzące do tego miejsca.
 EventOfficePlaceHowardBechman.button1,{qst:CONTINUE}
-EventOfficePlaceHowardBechman.text,Na poprzecieranym, skórzanym fotelu siedzi imponująca postać całkowicie pochłonięta liczeniem pieniędzy leżących przed nią na biurki. To musi być Howard Bechman, jeden z podejrzanych.\n\n{qst:PLACEPERSON:{person}:Howarda Bechmana}
+EventOfficePlaceHowardBechman.text,Na poprzecieranym, skórzanym fotelu siedzi imponująca postać całkowicie pochłonięta liczeniem pieniędzy leżących przed nią na biurku. To musi być Howard Bechman, jeden z podejrzanych.\n\n{qst:PLACEPERSON:{person}:Howarda Bechmana}
 OFFICESEARCHDESK,Kilka stosów banknotów i monet leży starannie ułożonych na blacie biurka. Obok nich leżą także różne zegarki oraz trochę biżuterii.
 EventOfficePlaceSearchDesk.button1,{qst:CONTINUE}
 EventOfficePlaceSearchDesk.text,{qst:OFFICESEARCHDESK}\n{qst:PLACESEARCH}
@@ -176,7 +177,7 @@ EventBedroom1PlaceTile.text,Słabo oświetlone pomieszczenie ktoś bardzo wystaw
 EventBedroom1PlaceOtheraGilman.button1,{qst:CONTINUE}
 EventBedroom1PlaceOtheraGilman.text,Głos należy do skąpo odzianej kobiety siedzącej w obitym pluszem fotelu naprzeciwko drzwi. Kobieta unosi na ciebie wzrok znad odpalanego właśnie papierosa.\n\n{qst:PLACEPERSON:{person}:Othery Gilman} To jedna z podejrzanych.
 EventBedroom1PlaceSearchBed.button1,{qst:CONTINUE}
-EventBedroom1PlaceSearchBed.text,Duże łóżko wygląda na niedawno używane. Na szafce obok łóżka stoi buteleczka z jakimiś pigułkami, pusta szklanka i trochę drobnych. Najwyraźniej ktoś posłał łóżko bardzo pospiecznie, bo spod poduszki wystaje jakiś papier.\n\n{qst:PLACESEARCH}
+EventBedroom1PlaceSearchBed.text,Duże łóżko wygląda na niedawno używane. Na szafce obok łóżka stoi buteleczka z jakimiś pigułkami, pusta szklanka i trochę drobnych. Najwyraźniej ktoś posłał łóżko bardzo pospiesznie, bo spod poduszki wystaje jakiś papier.\n\n{qst:PLACESEARCH}
 EventBedroom1PlaceExploreAlley.button1,{qst:CONTINUE}
 EventBedroom1PlaceExploreAlley.text,Od drzwi czujesz lekki przeciąg. Prawdopodobnie prowadzą na ulicę.\n\n{qst:PLACEEXPLORE}
 EventAlleyEndSightAlleyCorner.button1,{qst:CONTINUE}
@@ -189,7 +190,7 @@ EventAlleyEndPlaceGreenMan.button1,{qst:CONTINUE}
 EventAlleyEndPlaceGreenMan.text,Całkowicie ignorując smród, młody mężczyzna w długim płaszczu i kapeluszu opiera się o ścianę.\n\n{qst:PLACEPERSON:{person}:Zielonego Mężczyzny}
 EventAlleyEndPlaceRedMan.button1,{qst:CONTINUE}
 EventAlleyEndPlaceRedMan.text,Głębiej widzisz sylwetkę dużego mężczyzny machającego ręką i krzyczącego coś w stronę budynku.\n\n{qst:PLACEPERSON:{person}:Czerwonego Mężczyzny}
-ALLEYENDSEARCHCORNER,Stos śmieci w rogu musi być źródłem tego smrodu. Refleks światła odbiający się od czegoś lśniącego przykuwa jednak twoją uwagę.
+ALLEYENDSEARCHCORNER,Stos śmieci w rogu musi być źródłem tego smrodu. Refleks światła odbijający się od czegoś lśniącego przykuwa jednak twoją uwagę.
 EventAlleyEndPlaceSearchCorner.button1,{qst:CONTINUE}
 EventAlleyEndPlaceSearchCorner.text,{qst:ALLEYENDSEARCHCORNER}\n{qst:PLACESEARCH}
 TokenAlleyEndSearchCorner.text,{qst:ALLEYENDSEARCHCORNER}
@@ -198,7 +199,7 @@ EventAlleyEndSearchCorner.text,Starasz się nogą roztrącić odrobinę śmieci 
 EventAlleyEndSearchCorner.button1,{qst:CONTINUE}
 EventAlleyEndSearchCornerPass.text,Ostrożnie odgarniasz nogą śmieci i podnosisz przedmiot z ziemi.\n\n{qst:RECEIVECOMMON:{item}:{c:QItemRandomWeaponAlleyCorner}}.
 EventAlleyEndSearchCornerPass.button1,{qst:CONTINUE}
-EventAlleyEndSearchCornerFail.text,Starasz się być ostrożny przy rozgarnianiu nogą śmieci. W pewnym momencie chyba kopnąłeś zbyt mocno i coś dużego, zawiniętego w starą poplamioną krwią gazetę wytacza się ze sterty. Mokry papier rozrywa się odsłaniając gnijący świński łeb, patrzący na ciebie pustymi oczodołami. Po całej jego powierzchni pełzają białe larwy, przegryzając się przez odchodzącą płatami skórę.\n\n{qst:FACEUPHORROR:{nr}:1} ({will} negates).\n\n {qst:RECEIVECOMMON:{item}:{c:QItemRandomWeaponAlleyCorner}}.
+EventAlleyEndSearchCornerFail.text,Starasz się być ostrożny przy rozgarnianiu nogą śmieci. W pewnym momencie chyba kopnąłeś zbyt mocno i coś dużego, zawiniętego w starą poplamioną krwią gazetę wytacza się ze sterty. Mokry papier rozrywa się odsłaniając gnijący świński łeb, patrzący na ciebie pustymi oczodołami. Po całej jego powierzchni pełzają białe larwy, przegryzając się przez odchodzącą płatami skórę.\n\n{qst:FACEUPHORROR:{nr}:1} ({will} zapobiega).\n\n {qst:RECEIVECOMMON:{item}:{c:QItemRandomWeaponAlleyCorner}}.
 EventAlleyEndSearchCornerFail.button1,{qst:CONTINUE}
 ALLEYENDSEWERCOVER,Duży właz do kanałów. Wygląda, że był niedawno odsuwany.
 EventAlleyEndPlaceSearchManhole.button1,{qst:CONTINUE}
@@ -226,7 +227,7 @@ EventBedroom2PlaceSearchCouch.button1,{qst:CONTINUE}
 EventBedroom2PlaceSearchCouch.text,{qst:BEDROOM2SEARCHCOUCH}\n{qst:PLACESEARCH}
 TokenBedroom2SearchCouch.button1,{qst:SEARCH}
 TokenBedroom2SearchCouch.text,{qst:BEDROOM2SEARCHCOUCH}
-SEARCHCOUCH,Siadasz na kanpanie i sięgasz dłonią pomiędzy poduszki. Wyciągasz przedmiot, który musiał komuś wypaść i tutaj utknąć.\n\nZyskujesz przedmiot powszechny <color=Cyan>{item}</color>.
+SEARCHCOUCH,Siadasz na kanapie i sięgasz dłonią pomiędzy poduszki. Wyciągasz przedmiot, który musiał komuś wypaść i tutaj utknąć.\n\nZyskujesz przedmiot powszechny <color=Cyan>{item}</color>.
 EventBedroom2SearchCouch1.button1,{qst:CONTINUE}
 EventBedroom2SearchCouch1.text,{qst:SEARCHCOUCH:{item}:{c:QItemLuckyCigaretteCase}}
 EventBedroom2SearchCouch2.button1,{qst:CONTINUE}
@@ -238,7 +239,7 @@ EventBedroom2SearchCouch4.text,{qst:SEARCHCOUCH:{item}:{c:QItemLuckyRing}}
 EventBedroom2SearchCouch5.button1,{qst:CONTINUE}
 EventBedroom2SearchCouch5.text,{qst:SEARCHCOUCH:{item}:{c:QItemLuckyBandana}}
 EventBedroom2PlaceSearchCabinet.button1,{qst:CONTINUE}
-EventBedroom2PlaceSearchCabinet.text,Chwiejne, stare biurko ledwie trzyma się w całośći. Jedna z szuflad jest otwarta i wystają z niej jakieś papiery.\n\n{qst:PLACESEARCH}
+EventBedroom2PlaceSearchCabinet.text,Chwiejne, stare biurko ledwie trzyma się w całości. Jedna z szuflad jest otwarta i wystają z niej jakieś papiery.\n\n{qst:PLACESEARCH}
 ASK2100,{qst:ACTION} <i>"Gdzie byłeś między 21:00, a 21:30?"</i>
 ASK2130,{qst:ACTION} <i>"Gdzie byłeś między  21:30, a 22:00?"</i>
 NOTHINGDISCOVERED,Jeszcze nic nie wiesz o {name}.
@@ -246,8 +247,8 @@ SOFARFOUND,To na razie wszystko co wiesz o {name}.
 VICTORBLAKE2100CLAIM,Victor Blake twierdzi, że ok. 21.15 był w sklepie z kuriozami żeby kupić "lekarstwo".
 VICTORBLAKE2100CHECK,Dziewczyna z kabaretu, która była w sklepie z kuriozami od 21.00 do 21.30 twierdzi, że nie widziała tam Victora.
 VICTORBLAKE2130CLAIM,Victor Blake twierdzi, że pomiędzy 21.30, a 22.00 miał gościa - mężczyznę. Jego opis pasuje ci do człowieka, którego widziałeś na Crimson Alley.
-VICTORBLAKE2130CHECK,Dżentelmen w płaszczu złożył Vicorowi wizytę ok 21.40.
-VICTORBLAKE2130CHECKGUILTY,Dżentelmen w płaszczu i kapeluszu zeznał, że był w pokoju Victora około 21.40, gdy ten wrócił. Vicor twierdzi, że musiał się uprzednio wykąpać po bieganiu.
+VICTORBLAKE2130CHECK,Dżentelmen w płaszczu złożył Victorowi wizytę ok 21.40.
+VICTORBLAKE2130CHECKGUILTY,Dżentelmen w płaszczu i kapeluszu zeznał, że był w pokoju Victora około 21.40, gdy ten wrócił. Victor twierdzi, że musiał się uprzednio wykąpać po bieganiu.
 VICTORBLAKEILLEGAL,Victor naprawdę nazywa się Ralph Pomery, jednak ukrywa się pod przybranym nazwiskiem. Przyjmując u siebie mężczyzn ma nadzieję zarobić na spłatę swoich długów hazardowych.
 EventVictorBlakeInfoAllYouHave.button1,{qst:CONTINUE}
 EventVictorBlakeInfoAllYouHave.text,{qst:SOFARFOUND:{name}:Victor Blake}
@@ -308,11 +309,11 @@ EventVictorBlakeAsk2130.text,Zaskoczony twoim pytaniem Victor chwyta prześciera
 EventVictorBlakeAsk2130Pass.button1,{qst:CONTINUE}
 EventVictorBlakeAsk2130Pass.text,<i>-Byłem... Miałem... Towarzystwo.</i> - Victor jąka się i kontynuuje.\n<i>- Nie wiem jak ten dżentelmen się nazywa ale często odwiedza Crimson Alley. Zawsze nosi długi płaszcz z postawionym kołnierzem, a twarz kryje pod rondem kapelusza.</i>\n\nPrzypominasz sobie, że widziałeś mężczyznę pasującego do opisu Victora stojącego w pobliskiej alejce.\n\n{qst:ONECLUE}
 EventVictorBlakeAsk2130Fail.button1,{qst:CONTINUE}
-EventVictorBlakeAsk2130Fail.text,Vicotr odwraca się od ciebie i skrywa twarz w poduszce.\n\n<i>-Idź stąd i zostaw mnie w spokoju.</i> - mówi szlochając w poduszkę.
+EventVictorBlakeAsk2130Fail.text,Victor odwraca się od ciebie i skrywa twarz w poduszce.\n\n<i>-Idź stąd i zostaw mnie w spokoju.</i> - mówi szlochając w poduszkę.
 EventVictorBlakeAskIllegal.button1,{qst:CONTINUE}
 EventVictorBlakeAskIllegal.text,<i>- Mam mały problem z hazardem.</i> - usta Victora wykrzywia na chwilę niewielki uśmiech po czym kontynuuje już dużo poważniej.\n\n<i>- Niestety Fortuna nie przepada za takimi gośćmi jak ja, więc mój niewielki dług w końcu stał się całkiem pokaźnym długiem. Naprawdę nazywam się Ralph Pomery, jednak z oczywistych względów tutaj używam nazwiska Blake.</i>\n\n{qst:RECEIVEUNIQUE:{item}:{c:QItemIncriminatingEvidence}}.
 EventVictorBlakeIllegalFound.button1,{qst:CONTINUE}
-EventVictorBlakeIllegalFound.text,Przeglądając dokumenty znajdujesz jakies weksle podpisane jako Ralph Pomery. Pismo do złudzenia przypomina pismo Victora Blake'a.\n\nZapytaj o to Victora.\n\n{qst:ONECLUE}
+EventVictorBlakeIllegalFound.text,Przeglądając dokumenty znajdujesz jakieś weksle podpisane jako Ralph Pomery. Pismo do złudzenia przypomina pismo Victora Blake'a.\n\nZapytaj o to Victora.\n\n{qst:ONECLUE}
 HOWARDBECHMAN2100CLAIM,Bechman twierdzi, że między 21.00, a 21.30 starał się pozbyć kaznodziei ze swojego biura.
 HOWARDBECHMAN2100CHECK,Kapłan potwierdził, że był u Bechmana między 21.00, a 21.30, i że czuł, że jest traktowany oschle i ponaglany do wyjścia.
 HOWARDBECHMAN2100CHECKGUILTY,Kaznodzieja potwierdza, że odwiedził Bechmana między 21.00, a 21.30 jednak szybko został spławiony.
@@ -342,7 +343,7 @@ EventHowardBechman2130CheckInnocent.text,{qst:HOWARDBECHMAN2130CHECK}
 EventHowardBechmanIllegalBusiness.button1,{qst:CONTINUE}
 EventHowardBechmanIllegalBusiness.text,{qst:HOWARDBECHMANILLEGAL}
 HOWARDBECHMANASKILLEGAL,{qst:ACTION} <i>"Możesz jakoś wytłumaczyć całą tą whiskey?"</i>
-HOWARDBECHMANDIALOGUETEXT,Na poprzecieranym, skórzanym fotelu siedzi imponująca postać Howarda Bechmana. Zdaje się całkowicie pochłonięty liczeniem pieniędzy leżących przed nim na biurki.
+HOWARDBECHMANDIALOGUETEXT,Na poprzecieranym, skórzanym fotelu siedzi imponująca postać Howarda Bechmana. Zdaje się całkowicie pochłonięty liczeniem pieniędzy leżących przed nim na biurku.
 EventHowardBechmanAskABC.button1,{qst:ASK2100}
 EventHowardBechmanAskABC.button2,{qst:ASK2130}
 EventHowardBechmanAskABC.button3,{qst:HOWARDBECHMANASKILLEGAL}
@@ -372,7 +373,7 @@ EventHowardBechmanAskC.text,{qst:HOWARDBECHMANDIALOGUETEXT}
 EventHowardBechmanAskNone.button1,{qst:NEVERMIND}
 EventHowardBechmanAskNone.text,{qst:HOWARDBECHMANDIALOGUETEXT}
 EventHowardBechmanAsk2100.button1,{qst:CONTINUE}
-EventHowardBechmanAsk2100.text,Bechman pogrąża się w myślach.\n\n<i>- Jeśli dobrze sobie przypominam, nawiedził mnie wtedy samozwańczy kaznodzieja, który szwęda się nocami po okolicy. Przyszedł żeby wyżebrać ode mnie pieniądze na swój kościół. Oczywiście odesłałem go z niczym ale pozbycie się go zajęło mi całą wieczność.</i>\n\n{qst:ONECLUE}
+EventHowardBechmanAsk2100.text,Bechman pogrąża się w myślach.\n\n<i>- Jeśli dobrze sobie przypominam, nawiedził mnie wtedy samozwańczy kaznodzieja, który szwenda się nocami po okolicy. Przyszedł żeby wyżebrać ode mnie pieniądze na swój kościół. Oczywiście odesłałem go z niczym ale pozbycie się go zajęło mi całą wieczność.</i>\n\n{qst:ONECLUE}
 EventHowardBechmanAsk2130.button1,{qst:CONTINUE}
 EventHowardBechmanAsk2130.text,<i>- Już ci mówiłem, cały wieczór byłem w moim biurze...</i> - widzisz, że Bechman stara się odpowiadać wymijająco i lekko popychając stara się ciebie wyprowadzić.\n\nStawiasz się mu i nalegasz żeby odpowiedział zgodnie z prawdą ({strength}).
 EventHowardBechmanAsk2130Pass.button1,{qst:CONTINUE}
@@ -442,7 +443,7 @@ EventOtheraGilmanAskC.text,{qst:OTHERAGILMANDIALOGUETEXT}
 EventOtheraGilmanAskNone.button1,{qst:NEVERMIND}
 EventOtheraGilmanAskNone.text,{qst:OTHERAGILMANDIALOGUETEXT}
 EventOtheraGilmanAsk2100.button1,{qst:CONTINUE}
-EventOtheraGilmanAsk2100.text,<i>- Jestem przekonana, że to nie twój interes.</i> -  odpowiada z pogardą, mruga i ciągnie dalej.\n\n<i>- Oh, jeśli już musisz wiedzieć to... zapewniałam wtedy rozrywkę mojemu gościowi.</i>\n\nPochyla się w twoją stronę, unosi papierosa wsuniętego między dwa palce do ust, najwyraźniej oczekując, że jej odpalisz.\n\n{qst:ONECLUE}
+EventOtheraGilmanAsk2100.text,<i>- Jestem przekonana, że to nie twój interes.</i> -  odpowiada z pogardą, mruga i ciągnie dalej.\n\n<i>- Och, jeśli już musisz wiedzieć to... zapewniałam wtedy rozrywkę mojemu gościowi.</i>\n\nPochyla się w twoją stronę, unosi papierosa wsuniętego między dwa palce do ust, najwyraźniej oczekując, że jej odpalisz.\n\n{qst:ONECLUE}
 EventOtheraGilmanAsk2130.button1,{qst:CONTINUE}
 EventOtheraGilmanAsk2130.text,Kobieta ewidentnie unikała mówienia o miejscu swojego pobytu. Może uda ci się ją podpuścić żeby dowiedzieć się czegoś więcej ({lore}).
 EventOtheraGilmanAsk2130Pass.button1,{qst:CONTINUE}
@@ -519,7 +520,7 @@ EventJoyceLittleAsk2130.text,<i>- Naprawdę, przestań mi już przeszkadzać… 
 EventJoyceLittleAsk2130Pass.button1,{qst:CONTINUE}
 EventJoyceLittleAsk2130Pass.text,Patrzy na ciebie oniemiała.\n\n<i>Uspokój się. Przygotowywałam lekarstwo dla kogoś z okolicy kto źle się dzisiaj poczuł.</i>
 EventJoyceLittleAsk2130Fail.button1,{qst:CONTINUE}
-EventJoyceLittleAsk2130Fail.text,<i>- Lepiej wynoś się z mojego sklepu.</i> - mówi z uporem.\n\n<i>- Nie będę tolerowała takich zachowań!</i> - wskazuje ci wyjście.\n\nPrzemieść figurkę swojego Badacze na zewnątrze we wskazane miejsce.
+EventJoyceLittleAsk2130Fail.text,<i>- Lepiej wynoś się z mojego sklepu.</i> - mówi z uporem.\n\n<i>- Nie będę tolerowała takich zachowań!</i> - wskazuje ci wyjście.\n\nPrzemieść figurkę swojego Badacze na zewnątrz, we wskazane miejsce.
 EventJoyceLittleAskIllegal.button1,{qst:CONTINUE}
 EventJoyceLittleAskIllegal.text,<i>- Myśl sobie o mnie co chcesz, ale jedynie odpowiadam na zapotrzebowanie w tej okolicy. Mój produkt jest najwyższej jakości i jest bardzo popularny.</i> - właścicielka sklepu stwierdza z dumą. Nie czujesz w jej słowach ani krztyny skruchy czy poczucia winy.
 EventJoyceLittleAskIllegal1.button1,{qst:CONTINUE}
@@ -693,11 +694,11 @@ ORANGEWOMANASKB,{qst:ACTION} <i>"Możesz potwierdzić, że widziałaś się dzis
 ORANGEWOMANASKC,{qst:ACTION} <i>"Spotkałaś dzisiaj Otherę Gilman?"</i>
 ORANGEWOMANDIALOGUETEXT,Niczym nie wyróżniająca się kobieta grzebie w swoich torbach, mamrocząc coś do siebie.
 EventOrangeWomanAnswerA.button1,{qst:CONTINUE}
-EventOrangeWomanAnswerA.text,Kobieta posyła ci podejżliwe spojrzenie.\n\n<i>- Jeśli myślisz, że miałam cokolwiek wspólnego z tym przeklętym mordestwem, to się grubo mylisz!</i> - przerywa na chwilę po czym ciągnie dalej beznamiętnym głosem.\n\n<i>"- Niestety nic nie widziałam, ani nic nie słyszałam. Byłam zbyt zajęta sprzątaniem. Myślę, że Lenny może ci więcej powiedzieć. Facet ma oczy dookoła głowy. Jest wykidajłą w Young 'n Wild , na pewno coś widział. Ale uważaj - u niego nie ma nic za darmo.</i> - kończy i wskazuje ci drzwi znajdujące się w oddali.\n\n{qst:ONECLUE}
+EventOrangeWomanAnswerA.text,Kobieta posyła ci podejrzliwe spojrzenie.\n\n<i>- Jeśli myślisz, że miałam cokolwiek wspólnego z tym przeklętym morderstwem, to się grubo mylisz!</i> - przerywa na chwilę po czym ciągnie dalej beznamiętnym głosem.\n\n<i>"- Niestety nic nie widziałam, ani nic nie słyszałam. Byłam zbyt zajęta sprzątaniem. Myślę, że Lenny może ci więcej powiedzieć. Facet ma oczy dookoła głowy. Jest wykidajłą w Young 'n Wild , na pewno coś widział. Ale uważaj - u niego nie ma nic za darmo.</i> - kończy i wskazuje ci drzwi znajdujące się w oddali.\n\n{qst:ONECLUE}
 EventOrangeWomanAnswerB.button1,{qst:CONTINUE}
-EventOrangeWomanAnswerB.text,Chichocze przez chwilę. Gdy już się uspakaja mówi poważniejszym tonem.\n\n<i>- Biedny pan Bechman. Naprawdę musi przystopować z gorzałą.\Niestety musiało mu się pomylić. Przyszłam do niego po wypłatę, a owszem, ale nie wcześniej niż przed 22.00, bo wcześniej byłam zajęta sprzątaniem pokoju panny Gilman.</i>.\n\n{qst:ONECLUE}
+EventOrangeWomanAnswerB.text,Chichocze przez chwilę. Gdy już się uspakaja mówi poważniejszym tonem.\n\n<i>- Biedny pan Bechman. Naprawdę musi przystopować z gorzałą.\nNiestety musiało mu się pomylić. Przyszłam do niego po wypłatę, a owszem, ale nie wcześniej niż przed 22.00, bo wcześniej byłam zajęta sprzątaniem pokoju panny Gilman.</i>.\n\n{qst:ONECLUE}
 EventOrangeWomanAnswerC.button1,{qst:CONTINUE}
-EventOrangeWomanAnswerC.text,<i>-Zabawne... Byłam w jej pokoju około 21.40 żeby posprzątać. Wtedy napewno jej tam nie było. Później, gdy wróciła, mówiła, że musiała załatwić jakąś sprawę. Nie mówiła jaką, a ja nie zadaję pytań. To nie jest miejsce dla wścibskich ludzi.</i>\n\n{qst:ONECLUE}
+EventOrangeWomanAnswerC.text,<i>-Zabawne... Byłam w jej pokoju około 21.40 żeby posprzątać. Wtedy na pewno jej tam nie było. Później, gdy wróciła, mówiła, że musiała załatwić jakąś sprawę. Nie mówiła jaką, a ja nie zadaję pytań. To nie jest miejsce dla wścibskich ludzi.</i>\n\n{qst:ONECLUE}
 EventOrangeWomanAskABC.button1,{qst:ORANGEWOMANASKA}
 EventOrangeWomanAskABC.button2,{qst:ORANGEWOMANASKB}
 EventOrangeWomanAskABC.button3,{qst:ORANGEWOMANASKC}
@@ -727,7 +728,7 @@ EventOrangeWomanAskC.text,{qst:ORANGEWOMANDIALOGUETEXT}
 EventOrangeWomanAskNone.button1,{qst:NEVERMIND}
 EventOrangeWomanAskNone.text,{qst:ORANGEWOMANDIALOGUETEXT}
 WHITEMANDIALOGUETEXT,Przed błyszczącymi, czarnymi drzwiami stoi osiłek o tępym wyrazie twarzy. Ubrany jest w skórzaną kurtkę. Rozgląda się wokół uważnie jakby czegoś pilnował.
-WHITEMANASKA,{qst:ACTION} <i>"Widziałes co wydarzyło się w alejce?"</i>
+WHITEMANASKA,{qst:ACTION} <i>"Widziałeś co wydarzyło się w alejce?"</i>
 WHITEMANASKB,{qst:ACTION} <i>"Co to za miejsce?"</i>
 EventWhiteManAskAB.button1,{qst:WHITEMANASKA}
 EventWhiteManAskAB.button2,{qst:WHITEMANASKB}
@@ -741,7 +742,7 @@ EventWhiteManAskB.button2,{qst:NEVERMIND}
 EventWhiteManAskB.text,{qst:WHITEMANDIALOGUETEXT}
 EventWhiteManAskNone.button1,{qst:NEVERMIND}
 EventWhiteManAskNone.text,{qst:WHITEMANDIALOGUETEXT}
-WHITEMANTIME,<i>- Niewiele. Usłyszałem stłumiony płacz i wyjrzałem przez szparę. Było już dość ciemno. Widziałem tylko jak ktoś się nad czymś pochylał. Nosił jakieś ciemne ciuchy. To było około 21:{time}. Tago akurat jestem pewien, bo wtedy zaczynam zmianę.</i>\n\nTa informacja pozwoli ci z całą pewnością zawęzić ramy czasowe dokonania zrbodni.\n\n{qst:ONECLUE}
+WHITEMANTIME,<i>- Niewiele. Usłyszałem stłumiony płacz i wyjrzałem przez szparę. Było już dość ciemno. Widziałem tylko jak ktoś się nad czymś pochylał. Nosił jakieś ciemne ciuchy. To było około 21:{time}. Tego akurat jestem pewien, bo wtedy zaczynam zmianę.</i>\n\nTa informacja pozwoli ci z całą pewnością zawęzić ramy czasowe dokonania zbrodni.\n\n{qst:ONECLUE}
 EventWhiteManAnswerA2100.button1,{qst:CONTINUE}
 EventWhiteManAnswerA2100.text,{qst:WHITEMANTIME:{time}:14}
 EventWhiteManAnswerA2130.button1,{qst:CONTINUE}
@@ -755,27 +756,27 @@ EventWhiteManAnswerAStreet.text,{qst:WHITEMANANSWERACORNER:{street}:główna uli
 EventWhiteManAnswerAAlley.button1,{qst:CONTINUE}
 EventWhiteManAnswerAAlley.text,{qst:WHITEMANANSWERACORNER:{street}:zaułek}
 EventWhiteManAnwerASecretPassage.button1,{qst:CONTINUE}
-EventWhiteManAnwerASecretPassage.text,Po tym co znalazłeś w kanałach wnioskujesz, że morderca miał doskonale zaplanowaną drogę ucieczki. Nie tylko ukrył narzędzie zrbodni ale też naprowadził śledztwo na błędne tory.
+EventWhiteManAnwerASecretPassage.text,Po tym co znalazłeś w kanałach wnioskujesz, że morderca miał doskonale zaplanowaną drogę ucieczki. Nie tylko ukrył narzędzie zbrodni ale też naprowadził śledztwo na błędne tory.
 EventWhiteManInfluence.button1,{qst:CONTINUE}
 EventWhiteManInfluence.text,Wykidajło milczy jak zaklęty. Oczywiście nie powie nic o klubie z własnej woli. Spróbuj go przekonać ({influence}).
 EventWhiteManInfluencePass.button1,{qst:CONTINUE}
 EventWhiteManInfluencePass.text,Udaje ci się przekonać Lenny'eago, że nie jesteś z policji i chcesz jedynie dowiedzieć się czegoś o tym morderstwie. Naciskasz na niego, żeby powiedział wszystko co może mieć z tym jakiś związek, argumentując, że im szybciej sprawa zostanie zamknięta, tym lepiej dla interesów w dzielnicy.
 EventWhiteManInfluenceFail.button1,{qst:CONTINUE}
-EventWhiteManInfluenceFail.text,Pomimo twoich tłumaczeń jak bardzo jego pomoc może przysłużyć się rozwiązaniu tej sprawy, Lenny pozostaje niewzruszony. Stoi jak stał przed wejściem do budynku i z ręką w kieszeniu lustrując czujnie otoczenie.
+EventWhiteManInfluenceFail.text,Pomimo twoich tłumaczeń jak bardzo jego pomoc może przysłużyć się rozwiązaniu tej sprawy, Lenny pozostaje niewzruszony. Stoi jak stał przed wejściem do budynku i z ręką w kieszeni lustrując czujnie otoczenie.
 EventWhiteManObservation.button1,{qst:CONTINUE}
-EventWhiteManObservation.text,Wikidajło milczy jak zaklęty. Oczywiście nie powie nic o klubie z własnej woli. Stoi jedynie przed drzwiami, z ręką w kieszeni bacznie lustrując okolicę.\n\nMoże jest jakiś inny sposób na dostanie się do środka ({observation}).
+EventWhiteManObservation.text,Wykidajło milczy jak zaklęty. Oczywiście nie powie nic o klubie z własnej woli. Stoi jedynie przed drzwiami, z ręką w kieszeni bacznie lustrując okolicę.\n\nMoże jest jakiś inny sposób na dostanie się do środka ({observation}).
 EventWhiteManObservationPass.button1,{qst:CONTINUE}
 EventWhiteManObservationPass.text,Dopiero teraz uświadamiasz sobie, że druga ręka Lemmy'ego opuszczona jest wzdłuż ciała, a dłoń ma wysuniętą w twoją stronę w oczekiwaniu. Widząc, że w końcu zauważyłeś uśmiecha się porozumiewawczo. Wsuwasz mu więc w dłoń piątaka.
 EventWhiteManObservationFail.button1,{qst:CONTINUE}
 EventWhiteManObservationFail.text,Szukasz jakichś wskazówek odnośnie tego co dzieje się wewnątrz. Z migającego, częściowo przepalonego napisu nad wejściem, '{qst:CLUBTITLE}', wnioskujesz, że to nielegalne kasyno jednak ta informacja w niczym nie posuwa do przodu twojego śledztwa. Lenny stoi z ręką w kieszeni w drzwiach blokując przejście.
 EventWhiteManPass.button1,{qst:CONTINUE}
-EventWhiteManPass.text,Lenny wzrusza ramionami i mówi:\n\n<i>- Hmm, chyba nikomu nie zaszkodzi jeśli powiem ci co nieco. Właścielami klubu są panowie Young i Wild. Lokal oferuje szansę zagrania w kości jak ktoś chce spróbować swojego szczęścia. Pozwala też ukoić poczucie... hmm... samotności, rozumiesz?</i> -  Lenny mruga porozumiewawczo.\n\n<i>- Jak dobrze się orientuję to jedyne miejsce w Arkham, w którym możesz się napić. Może nie jest to do końca legalne ale alkohol jest domowej roboty, pędzony przez miejscowego specjalistę. Wiem też o jednym, może dwóch miejscach gdzie można kupić inne używki. Normalnie to cud, że policja się tutaj nie zapuszcza. Nie żebym narzekał ale mnie to trochę dziwi. Ciekawe czemu...</i>\n\n {qst:ONECLUE}
+EventWhiteManPass.text,Lenny wzrusza ramionami i mówi:\n\n<i>- Hmm, chyba nikomu nie zaszkodzi jeśli powiem ci co nieco. Właścicielami klubu są panowie Young i Wild. Lokal oferuje szansę zagrania w kości jak ktoś chce spróbować swojego szczęścia. Pozwala też ukoić poczucie... hmm... samotności, rozumiesz?</i> -  Lenny mruga porozumiewawczo.\n\n<i>- Jak dobrze się orientuję to jedyne miejsce w Arkham, w którym możesz się napić. Może nie jest to do końca legalne ale alkohol jest domowej roboty, pędzony przez miejscowego specjalistę. Wiem też o jednym, może dwóch miejscach gdzie można kupić inne używki. Normalnie to cud, że policja się tutaj nie zapuszcza. Nie żebym narzekał ale mnie to trochę dziwi. Ciekawe czemu...</i>\n\n {qst:ONECLUE}
 EventRedManDialogue0.button1,{qst:ACTION} <i>"Proszę się uspokoić!!"</i>
 EventRedManDialogue0.button2,{qst:ACTION} <i>"Przeprasza, czy mogę o coś zapytać?"</i>
 EventRedManDialogue0.button3,{qst:NEVERMIND}
 EventRedManDialogue0.text,Potężny mężczyzna wpatruje się w okno na pierwszym piętrze z wyrazem wściekłości malującym się na jego twarzy. Ręce trzyma sztywno opuszczone wzdłuż ciała, a stopy wystukują nerwowy rytm o kamienie bruku.
 EventRedManStrength.button1,{qst:CONTINUE}
-EventRedManStrength.text,Próbujesz wyglądać na większego i silniejszczego niż jesteś w rzeczywistości żeby zastraszyć mężczyznę ({strength}).
+EventRedManStrength.text,Próbujesz wyglądać na większego i silniejszego niż jesteś w rzeczywistości żeby zastraszyć mężczyznę ({strength}).
 EventRedManInfluence.button1,{qst:CONTINUE}
 EventRedManInfluence.text,<i>- Przepraszam, że przeszkadzam ale czy mógłby mi pan powiedzieć coś w sprawie dzisiejszego morderstwa?</i>\n\nPróbujesz wyciągnąć z niego jakieś informacje ({influence}).
 EventRedManPass.button1,{qst:CONTINUE}
@@ -789,23 +790,23 @@ SpawnCultist.button1,{qst:CONTINUE}
 SpawnCultist.text,<i>- Mówiłem ci żebyś się nie wtrącał!</i> - krzyczy z wyczuwalną groźbą.\n\nZastąp żeton <color=Cyan>Czerwonego Mężczyzny</color> figurką <color=Cyan>{c:SpawnCultist}</color>.
 EventOfficeExploreBedroom1.button1,{qst:OPEN}
 EventOfficeExploreBedroom1.button2,{qst:CANCEL}
-EventOfficeExploreBedroom1.text,Gduba, zielona zasłona skrywa nieopisane drzwi.
-SEWERSEARCH,Rysy na kamieniach bruku i włazie świadczą o częstym korzystaniu. Dookoła włazu znajdują się świeże ślady błota. Być może ktoś korzystał z wejścia do kanałów całkiem niedawno. Możliwe, że to ślady mordercy. Ponadto, ślady zostały zostawione przez buty należące do {who}.\n\nOdsuwasz pokrywę na bok zeby dokładniej sprawdzić ten trop.\n\nZastąp żeton <color=Cyan>Przeszukiwania</color> żetonem <color=Cyan>Tajnego Przejścia</color>.
+EventOfficeExploreBedroom1.text,Gruba, zielona zasłona skrywa nieopisane drzwi.
+SEWERSEARCH,Rysy na kamieniach bruku i włazie świadczą o częstym korzystaniu. Dookoła włazu znajdują się świeże ślady błota. Być może ktoś korzystał z wejścia do kanałów całkiem niedawno. Możliwe, że to ślady mordercy. Ponadto, ślady zostały zostawione przez buty należące do {who}.\n\nOdsuwasz pokrywę na bok żeby dokładniej sprawdzić ten trop.\n\nZastąp żeton <color=Cyan>Przeszukiwania</color> żetonem <color=Cyan>Tajnego Przejścia</color>.
 EventSewerSearchMan.text,{qst:SEWERSEARCH:{who}:mężczyzny}
 EventSewerSearchWoman.button1,{qst:CONTINUE}
 EventSewerSearchWoman.text,{qst:SEWERSEARCH:{who}:kobiety}
 EventSewerSearchMan.button1,{qst:CONTINUE}
 EventSewerSearchEvidence.button1,{qst:CONTINUE}
-EventSewerSearchEvidence.text,Domyślasz się, że morderca bardzo sprytnie wykorzystał ten kanał jako drogę ucieczki. Podążasz za śladami w głąb kanału zeby sprawdzić gdzie cię zaprowadzą. Rozglądasz się za kolejnymi śladami ({observation}).Jeśli posiadasz źródło światła możesz dodać jeden {success} do wyniku swojego testu.
-SEWERFINDEVIDENCE,Kątem oka dostrzegasz coś metalowego wystającego z błota. Podnosisz to i wycierasz z błota. Okazuje się, że to nóż do skórowania. Pasuje jak ulał do domniemanego narzęzdia zbrodni opisanego przez agenta Cravena. Rękojeść noża zawinięta jest w zakrwawioną chusteczkę należącą do {who}. Morderca zapewne użył jej do wytarcia odcisków palców. Obok miejsca gdzie znalazłeś nóż leżą porzucone, zwinięte szaty noszące ślady krwi na rękawach.\n\n{qst:RECEIVEUNIQUE:{item}:{c:QItemCircumstantialEvidence}}.
+EventSewerSearchEvidence.text,Domyślasz się, że morderca bardzo sprytnie wykorzystał ten kanał jako drogę ucieczki. Podążasz za śladami w głąb kanału żeby sprawdzić gdzie cię zaprowadzą. Rozglądasz się za kolejnymi śladami ({observation}).Jeśli posiadasz źródło światła możesz dodać jeden {success} do wyniku swojego testu.
+SEWERFINDEVIDENCE,Kątem oka dostrzegasz coś metalowego wystającego z błota. Podnosisz to i wycierasz z błota. Okazuje się, że to nóż do skórowania. Pasuje jak ulał do domniemanego narzędzia zbrodni opisanego przez agenta Cravena. Rękojeść noża zawinięta jest w zakrwawioną chusteczkę należącą do {who}. Morderca zapewne użył jej do wytarcia odcisków palców. Obok miejsca gdzie znalazłeś nóż leżą porzucone, zwinięte szaty noszące ślady krwi na rękawach.\n\n{qst:RECEIVEUNIQUE:{item}:{c:QItemCircumstantialEvidence}}.
 EventSewerFindEvidenceMan.button1,{qst:CONTINUE}
 EventSewerFindEvidenceMan.text,{qst:SEWERFINDEVIDENCE:{who}:mężczyzny}
 EventSewerFindEvidenceWoman.button1,{qst:CONTINUE}
 EventSewerFindEvidenceWoman.text,{qst:SEWERFINDEVIDENCE:{who}:kobiety}
 EventSewerFindExtra.button1,{qst:CONTINUE}
-EventSewerFindExtra.text,Kawałek dalej, w ciemnym kącie znajdujesz {c:QItemWeaponSewer}. Morderca musiał zabrać to w razie nieprzewidzianej sytuacji, jednak w międzyczasie stwierdził, że użycie noża narobi mniej hałasu i niepotrzebnie nie zwróci uwagi. Dostrzegasz także starsze odciski stóp. Większ, mocniej odciśnięte i nieobute. Masz nadzieję, że cokolwiek zrobiło te ślady nie szwęda się już po kanałach.\n\nZyskujesz przedmiot powszechny <color=Cyan>{c:QItemWeaponSewer}</color>.
+EventSewerFindExtra.text,Kawałek dalej, w ciemnym kącie znajdujesz {c:QItemWeaponSewer}. Morderca musiał zabrać to w razie nieprzewidzianej sytuacji, jednak w międzyczasie stwierdził, że użycie noża narobi mniej hałasu i niepotrzebnie nie zwróci uwagi. Dostrzegasz także starsze odciski stóp. Większe, mocniej odciśnięte i nieobute. Masz nadzieję, że cokolwiek zrobiło te ślady nie szwenda się już po kanałach.\n\nZyskujesz przedmiot powszechny <color=Cyan>{c:QItemWeaponSewer}</color>.
 INVESTIGATORINRIOT,Traktuj Zamieszki jako nieprzekraczalny obiekt. Nie można ich zaatakować. Nie należy też wykonywać testu przerażenia przeciwko nim.\n\nKażdy Badacz znajdujący się na polu, na którym znajdują się {c:SpawnRiot} zostaje pobity i odepchnięty. Figurkę Badacza należy przemieścić na dowolne sąsiednie pole. Każdy Badacz, którego to dotyczy przyjmuje 1 kartę <color=Red>Obrażeń</color> oraz  otrzymuje stan <color=Cyan>Ogłuszony</color>.
-RIOTMOVES,<i>- PRECZ Z PROHIBICJĄ!</i> - ryczy wściekły tłum, powoli przesuwając się ulicą. Ludzie w tłumie unoszą w górę zaciśnięte pięści, a każdemu kto satnie na ich drodze, grożąc ściaskanymi nożami i pałkami.\n\nPrzemieść <color=Cyan>{c:SpawnRiot}</color> we wskazane miejsce.
+RIOTMOVES,<i>- PRECZ Z PROHIBICJĄ!</i> - ryczy wściekły tłum, powoli przesuwając się ulicą. Ludzie w tłumie unoszą w górę zaciśnięte pięści, a każdemu kto stanie na ich drodze, grożąc ściskanymi w dłoniach nożami i pałkami.\n\nPrzemieść <color=Cyan>{c:SpawnRiot}</color> we wskazane miejsce.
 EventRiotMove0.button1,{qst:CONTINUE}
 EventRiotMove0.text,Na ulicy za tobą wybuchły zamieszki. Słyszysz gniewne hasła wykrzykiwane przez protestujących domagające się zniesienia prohibicji. Po tym jak okrzyki stają się coraz głośniejsze wnioskujesz, że demonstranci kierują się w twoją stronę.
 EventRiotMove1.text,Wściekły tłum pojawia się na początku ulicy. Zebrani ludzie niosą pochodnie, pałki i noże. Manifestacja przesuwa się powoli. Z tłumu rozlegają się okrzyki <i>"PRECZ Z PROHIBICJĄ"</i>, <i>"POLICJA ŚWINIE"</i> i inne kierowane pod adresem lokalnych dygnitarzy. Tłum wznosi gniewnie pięści ku niebu, a w stronę każdego, kto stanie im na drodze, zaraz kierują się noże i pałki.\n\nUmieść <color=Cyan>{c:SpawnRiot}</color> we wskazanym miejscu. Traktuj ten tłum jako nieprzekraczalny obiekt. Nie można go atakować ale nie wywołuje on testu przerażenia. Każdy Badacz znajdujący się na polu z {c:SpawnRiot} zostaje pobity i odepchnięty. Figurkę tego Badacza należy przemieścić na dowolne sąsiadujące pole. Badacz, którego to dotyczy przyjmuje 1 kartę <color=Red>Obrażeń</color> oraz otrzymuje stan <color=Cyan>Ogłuszony</color>.
@@ -815,7 +816,7 @@ EventRiotMove2.text,{qst:RIOTMOVES}\n\n{qst:INVESTIGATORINRIOT}
 EventRiotMove3.button1,{qst:CONTINUE}
 EventRiotMove3.text,{qst:RIOTMOVES}\n\n{qst:INVESTIGATORINRIOT}
 EventRiotMove3Stall.button1,{qst:CONTINUE}
-EventRiotMove3Stall.text,Wściekły tłum zatrzymuje się u wylotu alejki.\n\n<i>"PRECZ Z PROHIBICJĄ!"</i>, <i>"POLICJA ŚWINIE!"</i> i inne obelgi pod adresem lokalnych włodarzy odbijają się echem od ścian budynków. Ludzie unosza pięści w górę w gestach pełnych gniewu. Gdy tylko ktoś się do nich zbliży momentalnie w jego stronę kierują się noże i pałki.\n\n{qst:INVESTIGATORINRIOT}
+EventRiotMove3Stall.text,Wściekły tłum zatrzymuje się u wylotu alejki.\n\n<i>"PRECZ Z PROHIBICJĄ!"</i>, <i>"POLICJA ŚWINIE!"</i> i inne obelgi pod adresem lokalnych włodarzy odbijają się echem od ścian budynków. Ludzie unoszą pięści w górę w gestach pełnych gniewu. Gdy tylko ktoś się do nich zbliży momentalnie w jego stronę kierują się noże i pałki.\n\n{qst:INVESTIGATORINRIOT}
 EventRiotMove4.button1,{qst:CONTINUE}
 EventRiotMove4.text,{qst:RIOTMOVES}\n\n{qst:INVESTIGATORINRIOT}
 EventRiotMove5.button1,{qst:CONTINUE}
@@ -833,7 +834,7 @@ TokenRiotLocation4.button1,{qst:CONTINUE}
 TokenRiotLocation4.text,{qst:INVESTIGATORINRIOT}
 SPAWNFROMBODY1,Zwłoki nagle zaczynają drżeć. Coś rozrywa je od środka i w fontannie krwi i kawałków ciała wypryskuje na zewnątrz. Demoniczny pasożyt, który rósł wewnątrz wypełza teraz na ulicę rosnąc z każdą chwilą.
 SpawnHuntingHorror.button1,{qst:CONTINUE}
-SPAWNFROMBODY2,Potwór z ogłuszającym piskiem wzbija się w powietrze.\n\nKażdy Badacz na polu zewnętrznym przyjmuje 2 karty <color=Teal>Przerażenia</color> ({will} zapobiega).\nJeśli przuyjmujesz 1 lub więcej kart <color=Teal>Przerażenia</color> otrzymujesz stan <color=Cyan>Oszołomiony</color>.\n\nZastąp Replace the żeton <color=Cyan>Żółtej Osoby</color> figurką <color=Cyan>{monster}</color>.
+SPAWNFROMBODY2,Potwór z ogłuszającym piskiem wzbija się w powietrze.\n\nKażdy Badacz na polu zewnętrznym przyjmuje 2 karty <color=Teal>Przerażenia</color> ({will} zapobiega).\nJeśli przyjmujesz 1 lub więcej kart <color=Teal>Przerażenia</color> otrzymujesz stan <color=Cyan>Oszołomiony</color>.\n\nZastąp żeton <color=Cyan>Żółtej Osoby</color> figurką <color=Cyan>{monster}</color>.
 SpawnHuntingHorror.text,{qst:SPAWNFROMBODY1} Z wężowatego cielska wyrastają błoniaste skrzydła. {qst:SPAWNFROMBODY2:{monster}:{c:SpawnHuntingHorror}}
 SpawnByakhee.button1,{qst:CONTINUE}
 SpawnByakhee.text,{qst:SPAWNFROMBODY1} Z pokrytego krwią cielska wyrastają potężne, mięsiste skrzydła. {qst:SPAWNFROMBODY2:{monster}:{c:SpawnByakhee}}
@@ -854,7 +855,7 @@ EventOldJournalEvidenceTime4.button1,{qst:CONTINUE}
 EventOldJournalEvidenceTime4.text,{qst:EVIDENCETIME:{time}:43:{street}:głównej ulicy}
 EventOldJournalEvidenceWeapon.button1,{qst:CONTINUE}
 EventOldJournalEvidenceWeapon.text,Rany oraz nacięcia na skórze sugerują użycie noża do skórowania.
-EVIDENCEWEAPON,Broń, którą dokonano morderstwa znalazłeś w kanale. Nóż do skórowania był zawinięty w chusteczkę ewidentnie należącą do {who}, na której były ślady krwi. Ponadtwo obok narzędzia zbrodni oraz wejścia do kanałów znalazłeś ślady butów {who}.
+EVIDENCEWEAPON,Broń, którą dokonano morderstwa znalazłeś w kanale. Nóż do skórowania był zawinięty w chusteczkę ewidentnie należącą do {who}, na której były ślady krwi. Ponadto obok narzędzia zbrodni oraz wejścia do kanałów znalazłeś ślady butów {who}.
 EventOldJournalEvidenceWeaponMan.button1,{qst:CONTINUE}
 EventOldJournalEvidenceWeaponMan.text,{qst:EVIDENCEWEAPON:{who}:mężczyzny}
 EventOldJournalEvidenceWeaponWoman.button1,{qst:CONTINUE}
@@ -986,7 +987,7 @@ SpawnReinforcementACultist.text,<i>- Przybyłem by cię chronić, mój panie.</i
 SpawnReinforcementBCultist.button1,{qst:CONTINUE}
 SpawnReinforcementBCultist.text,{c:SpawnReinforcementBCultist} wychodzi przez drzwi gdzieś z tyłu alejki.\n\n<i>- Przybyłem, o panie.</i>.\n\nUmieść <color=Cyan>{c:SpawnReinforcementBCultist}</color> we wskazanym miejscu.
 SpawnReinforcementAHiredGun.button1,{qst:CONTINUE}
-SpawnReinforcementAHiredGun.text,<i>- Biegnij! Osłaniam!</i> - warczy {c:SpawnReinforcementAHiredGun} wynurzając się nagle z cienia.\n\nUmieść <color=Cyan>{c:SpawnReinforcementAHiredGun}</color> we wksazanym miejscu.
+SpawnReinforcementAHiredGun.text,<i>- Biegnij! Osłaniam!</i> - warczy {c:SpawnReinforcementAHiredGun} wynurzając się nagle z cienia.\n\nUmieść <color=Cyan>{c:SpawnReinforcementAHiredGun}</color> we wskazanym miejscu.
 SpawnReinforcementBHiredGun.button1,{qst:CONTINUE}
 SpawnReinforcementBHiredGun.text,<i>- Teraz moja kolej.</i> - mówi {c:SpawnReinforcementBHiredGun}, z wrednym uśmieszkiem przeładowując broń i wychodząc z klubu Young 'n Wild.\n\nUmieść <color=Cyan>{c:SpawnReinforcementBHiredGun}</color> we wskazanym miejscu.
 SpawnReinforcementAManiac.button1,{qst:CONTINUE}
@@ -997,7 +998,7 @@ EventSetMythosMinor.button1,{qst:CONTINUE}
 EventSetMythosMinor.text,Crimson Alley na pewno jest gniazdem przeróżnych nielegalnych interesów oraz szemranych rozrywek, jednak twoje doświadczenie w rozwiązywaniu spraw nadnaturalnych mówi ci, że była dzielnica rzeźni skrywa coś jeszcze. Już kiedyś to czułeś... To uczucie gdy za kulisami działa starożytna, mroczna siła.
 TokenBedroom1SearchBed.text,Spod poduszki wystaje jakaś kartka.
 TokenBedroom1SearchBed.button1,{qst:SEARCH}
-EventBedroom1SearchBed.text,Odsuwasz poduszkę i podnosisz papier, który okazuje się być częścią podartej fotografii. Ten fragment pokazuje półnagiego mężczyznę całującego się z jakąś kobietą. Nigdzie nie widzisz innych fragmentów zdjęcia. Po bliższym przyjżeniu stwierdzasz, że widziałeś tego człowieka gdy próbował się ukrywać w cieniu nieopodal pokoju Othery.
+EventBedroom1SearchBed.text,Odsuwasz poduszkę i podnosisz papier, który okazuje się być częścią podartej fotografii. Ten fragment pokazuje półnagiego mężczyznę całującego się z jakąś kobietą. Nigdzie nie widzisz innych fragmentów zdjęcia. Po bliższym przyjrzeniu stwierdzasz, że widziałeś tego człowieka gdy próbował się ukrywać w cieniu nieopodal pokoju Othery.
 EventBedroom1SearchBed.button1,{qst:CONTINUE}
 AGENTCRAVENPRIESTDIED,Gdy {c:SpawnPriestOfDagon} pada martwy, zaklęcie które dusiło Agenta Cravena przestało działać.\n\n<i>- Było blisko... Nie mogłem oddychać...</i> - mówi, wstając z ziemi i masując się po szyi.\n\n<i>- Dziękuję za pomoc w ujęciu mordercy. Wychodzi na to, że dzieje się tutaj o wiele więcej niż się spodziewaliśmy. Będzie trzeba się temu dokładniej przyjrzeć. Mam u was wielki dług.</i>.\n\nŚledztwo zostało ukończone.
 EventAgentCravenPriestDied1.text,{qst:AGENTCRAVENPRIESTDIED}
@@ -1009,12 +1010,12 @@ EventAgentCravenPriestDied3.button1,{qst:CONTINUE}
 EventAgentCravenPriestDied4.text,{qst:AGENTCRAVENPRIESTDIED}
 EventAgentCravenPriestDied4.button1,{qst:CONTINUE}
 UIEpilogueInvestigatorDeadTxt.uitext,Jeden z waszych towarzyszy zginął.\n\nTo śledztwo okazało się przerastać wasze siły. Zostawiacie za sobą Crimson Alley i Agenta Cravena ich własnemu losowi.\n\nŚledztwo nie zostało ukończone.
-UIEpilogueFullVictoryTxt.uitext,Dzięki waszym wysiłkom udało się namierzyć i oskarżyć właściwą osobę. Udało się wam przeszkodzić mordercy w ucieczce i ocaliliście życie Agenta Cravena.\n\nNiestety nie udało się wam zebrać wystarczająco dużo dowodów żeby odkryć pozostałe cztery przestęptwa przy Crimson Alley. Mimo to, wazsym głównym celem było pomóc Cravenowi przy wytropieniu mordercy, więc uznajecie to za sukces.\n\nBędziecie mieć oko na Crimson Alley, bo gdzie jest zbrodnia... tajemne, złowieszcze organizacje pojawiają się bardzo szybko i chętnie.\n\nŚledztwo zostało ukończone.
+UIEpilogueFullVictoryTxt.uitext,Dzięki waszym wysiłkom udało się namierzyć i oskarżyć właściwą osobę. Udało się wam przeszkodzić mordercy w ucieczce i ocaliliście życie Agenta Cravena.\n\nNiestety nie udało się wam zebrać wystarczająco dużo dowodów żeby odkryć pozostałe cztery przestępstwa przy Crimson Alley. Mimo to, waszym głównym celem było pomóc Cravenowi przy wytropieniu mordercy, więc uznajecie to za sukces.\n\nBędziecie mieć oko na Crimson Alley, bo gdzie jest zbrodnia... tajemne, złowieszcze organizacje pojawiają się bardzo szybko i chętnie.\n\nŚledztwo zostało ukończone.
 UIEpiloguePartialVictoryTxt.uitext,Oskarżyliście o morderstwo niewinną osobą. Udało się wam jednak przeszkodzić prawdziwemu mordercy w ucieczce i ocaliliście Agenta Cravena.\n\nPomimo tego, że wasze śledztwo nie doprowadziło do aresztowania, zajęliście się sprawcą.\n\nNie próbujecie nawet informować Cravena o innych przestępstwach w okolicy, o których się dowiedzieliście. Wszakże myliliście się co do mordercy, więc może i te dowody i wnioski z nich wyciągnięte są błędne.\n\nŚledztwo zostało ukończone.
 UIEpiloguePriestEscapesTxt.uitext,Nie udało się wam przeszkodzić w ucieczce mordercy. Ponadto Agent Craven zmarł w trakcie starcia uduszony przez niewidzialną siłę.\n\nKapłan Dagona został przepędzony z Crimson Alley jednak to jedynie niedogodność w jego mrocznych planach. Najprawdopodobniej powróci i znów zacznie gromadzić wokół siebie wyznawców czy to w Crimson Alley czy też zupełnie gdzie indziej.\n\nW następnych tygodniach czeka was nerwowe przeglądanie gazet, czy przypadkiem nie donoszą o tajemniczych morderstwach, które mogłyby świadczyć, że kult powrócił. Musicie spróbować jeszcze raz pochwycić tego człowieka.\n\nŚledztwo nie zostało ukończone.
 UIEpilogueAllCrimesTxt.uitext,Dzięki waszym umiejętnościom udało się ustalić kto był mordercą i przeszkodzić mu w ucieczce. Ocaliliście także życie Agentowi Cravenowi.\n\nUdało wam się także namierzyć inne nielegalne interesy działające przy Crimson Alley. Cravena bardzo to zainteresowało i prosi was o przekazanie zebranych dowodów.\n\nTydzień później czytacie w gazecie, że służby federalne dokonały nalotu i aresztowań przy Crimson Alley. Zmniejszenie przestępczości w tej okolicy zmniejsza też szanse na powrót okultystycznych organizacji. Sprawiliście się na medal.\n\nŚledztwo zostało ukończone.
 EventShopSearchDesk.button1,{qst:CONTINUE}
-EventShopSearchDesk.text,Przyglądasz się przemiotom leżącym na biurku i rozpoznajesz niektóre składniki. Ta mieszanina ziół nie jest jedynie "lekarstwem" na ból głowy ale silnym narkotykiem. Najwyraźniej Joyce znalazła sposób jak zapewnić sobie wierność klientów.
+EventShopSearchDesk.text,Przyglądasz się przedmiotom leżącym na biurku i rozpoznajesz niektóre składniki. Ta mieszanina ziół nie jest jedynie "lekarstwem" na ból głowy ale silnym narkotykiem. Najwyraźniej Joyce znalazła sposób jak zapewnić sobie wierność klientów.
 PuzzleShopCabinetBigGroup.button1,{qst:GUESS}
 PuzzleShopCabinetSmallGroup.button1,{qst:GUESS}
 TokenShopSearchCabinet.button1,{qst:UNLOCK}
@@ -1029,9 +1030,9 @@ EventShopSearchCabinet3.text,{qst:SHOPSEARCHCABINET:{item}:{c:QItemSedatives}}
 EventShopSearchCabinet4.button1,{qst:CONTINUE}
 EventShopSearchCabinet4.text,Udaje ci się otworzyć szafkę.\nZyskujesz <color=Cyan>{c:QItemElixer}</color>.
 EventOfficeSearchDesk.button1,{qst:CONTINUE}
-EventOfficeSearchDesk.text,Odsuwasz przedmioty na blacie na bok żeby odsłonić znajdujące się pod nimi papiery. Wygląda na to, że pod nimi leży księga rachunkowa. W tabelki powpisywano inicjały, ilości i ceny. Nie wiesz dokłanie czego dotyczą zapiski jednak zauważasz, że jedne inicjały powtarzają się dość często: 'Y&W'. Jesteś prawie pewien, że oznaczają nazwę klubu znajdującego się w okolicu - 'Young 'n Wild'.
+EventOfficeSearchDesk.text,Odsuwasz przedmioty na blacie na bok żeby odsłonić znajdujące się pod nimi papiery. Wygląda na to, że pod nimi leży księga rachunkowa. W tabelki powpisywano inicjały, ilości i ceny. Nie wiesz dokładnie czego dotyczą zapiski jednak zauważasz, że jedne inicjały powtarzają się dość często: 'Y&W'. Jesteś prawie pewien, że oznaczają nazwę klubu znajdującego się w okolicy - 'Young 'n Wild'.
 EventOfficeSearchDesk1.button1,{qst:CONTINUE}
-EventOfficeSearchDesk1.text,<i>- Jesteś tak samo wścibski jak ten klecha!</i> - mówi Howard Bechman odpychając cię od biurka.\n\nTChwyta co mu się nawinie pod rękę i ciska w ciebie ciężkim przedmiotem. Zaskoczony nie jesteś w stanie się uchylić i zostajesz uderzony w ramię.\n\n<i>"- Ten kretyn zapomniał tego! Przekaż mu to z pozdrowieniami ode mnie!</i>.\n\n {qst:FACEDOWNDAMAGE:{nr}:1} ({agility} zapobiega).\n {qst:RECEIVECOMMON:{item}:{c:QItemHolyCross}}.
+EventOfficeSearchDesk1.text,<i>- Jesteś tak samo wścibski jak ten klecha!</i> - mówi Howard Bechman odpychając cię od biurka.\n\nChwyta co mu się nawinie pod rękę i ciska w ciebie ciężkim przedmiotem. Zaskoczony nie jesteś w stanie się uchylić i zostajesz uderzony w ramię.\n\n<i>"- Ten kretyn zapomniał tego! Przekaż mu to z pozdrowieniami ode mnie!</i>.\n\n {qst:FACEDOWNDAMAGE:{nr}:1} ({agility} zapobiega).\n {qst:RECEIVECOMMON:{item}:{c:QItemHolyCross}}.
 PuzzleVictorBlakeIllegalBigGroup.button1,{qst:GUESS}
 PuzzleVictorBlakeIllegalSmallGroup.button1,{qst:GUESS}
 PEOPLEFLEE,Nagłe pojawienie się takiej okropności przeraziło ludzi znajdujących się na ulicy. Wszyscy natychmiast zaczynają uciekać w różnych kierunkach. Jedynie kaznodzieja stoi niewzruszony pośrodku ulicy, jakby zbierał siły przed nadchodzącą konfrontacją.
