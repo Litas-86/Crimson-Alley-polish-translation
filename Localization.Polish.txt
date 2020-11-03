@@ -108,8 +108,7 @@ EventShopPlaceTile.text,Wchodzisz do niewielkiego sklepu z kuriozami zapełnione
 EventShopPlaceJoyceLittle.button1,{qst:CONTINUE}
 EventShopPlaceJoyceLittle.text,Za ladą stoi surowo wyglądająca kobieta w średnim wieku. Na nosie ma cwikiery. Jest zajęta zawijaniem niewielkiej paczki w biały papier.\n\n{qst:PLACEPERSON:{person}:Joyce Little}\n\n To jedna z podejrzanych.
 EventShopPlaceBlueWoman.button1,{qst:CONTINUE}
-EventShopPlaceBlueWoman.text,Młoda dziewczyna w teatralnym stroju nerwowo obgr
-yza paznokcie. Wygląda jakby za wszelką cenę chciała uniknąć spotkania z Tobą. Najwidoczniej na coś czeka.\n\n{qst:PLACEPERSON:{person}:Niebieskiej Kobiety}
+EventShopPlaceBlueWoman.text,Młoda dziewczyna w teatralnym stroju nerwowo obgryza paznokcie. Wygląda jakby za wszelką cenę chciała uniknąć spotkania z Tobą. Najwidoczniej na coś czeka.\n\n{qst:PLACEPERSON:{person}:Niebieskiej Kobiety}
 EventShopPlaceSearchCabinet.button1,{qst:CONTINUE}
 EventShopPlaceSearchCabinet.text,Szklana gablota w rogu pomieszczenia jest pełna różnych drobiazgów.\n\nUmieść żeton <color=Cyan>Przeszukiwania</color> we wskazanym miejscu.
 TokenShopSearchDesk.button1,{qst:SEARCH}
